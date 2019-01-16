@@ -28,3 +28,22 @@ appending, removing, and removing values. I learned about the `yield from`
 keyword as well when using itertools. 
 
 **Link to work:** [PyBites 2](https://github.com/danyeaw/pybites-challenges/blob/master/02/game.py)
+
+### Day 3: Jan 15 Tuesday
+
+**Today's Progress**: Completed PyBites Code Challenge 3 -
+PyBites Blog Tag Analysis
+
+**Thoughts:**: This is my first use of itertools product and difflib
+SequenceMatcher. It took me a while to figure out I needed to read() from
+the xml file instead of trying to open it line by line. It also stumped
+me that the tests were putting the tag pairs in to a set, and I needed to
+sort the tuples so that I didn't get duplicates. I got through the challenge
+today but I am hoping over the next few weeks I can speed up my coding some.
+I also started to use the REPL with `help()` more, to explore the different
+python libraries while reducing my reliance on looking up things on the
+internet.
+
+**Link to work:** 
+[Commit 1](https://github.com/danyeaw/pybites-challenges/commit/45d5552c82df35338289da414bc9c0fb201033c5)
+[Commit 2](https://github.com/danyeaw/pybites-challenges/commit/aa7f37fdf5d3a57d629afc1ea467285ae7b94fbc)
