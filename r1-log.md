@@ -47,3 +47,22 @@ internet.
 **Link to work:** 
 [Commit 1](https://github.com/danyeaw/pybites-challenges/commit/45d5552c82df35338289da414bc9c0fb201033c5)
 [Commit 2](https://github.com/danyeaw/pybites-challenges/commit/aa7f37fdf5d3a57d629afc1ea467285ae7b94fbc)
+
+### Day 4: Jan 16 Wednesday
+
+**Today's Progress**:
+
+- Completed a HankerRank challenge with basic numpy shape and reshape
+- Completed PyBites Code Challenge 4 - Twitter data analysis Part 1
+- Almost completed PyBites Code Challenge 5 - Similar Tweeters
+
+**Thoughts:**: I had done the PyBites Challenge 4 before, so that one was
+a refresher. Challenge 5 was really tough, and I had to use some of the
+review hints to make progress. This was my first dive in to natural
+language processing. I am getting an error with gensim Dictionary.doc2bow
+expecting an array of unicode tokens on input, not a single string. I'm
+not sure why I am getting this error, but I will troubleshoot more tomorrow.
+
+**Link to work:** 
+[Commit 1](https://github.com/danyeaw/pybites-challenges/commit/0203532d094b37a5a85a93ec42038ba9ccbd3512)
+[Commit 2](https://github.com/danyeaw/pybites-challenges/commit/77125b3e93f2ac98f61240a800535b715e5e8adb)
