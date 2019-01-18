@@ -66,3 +66,17 @@ not sure why I am getting this error, but I will troubleshoot more tomorrow.
 **Link to work:** 
 [Commit 1](https://github.com/danyeaw/pybites-challenges/commit/0203532d094b37a5a85a93ec42038ba9ccbd3512)
 [Commit 2](https://github.com/danyeaw/pybites-challenges/commit/77125b3e93f2ac98f61240a800535b715e5e8adb)
+
+### Day 5: Jan 17 Thursday
+
+**Today's Progress**:
+
+- Completed PyBites Code Challenge 5 - Similar Tweeters
+- Started my first Rails app
+
+**Thoughts**: Resolved the issues with challenge 5 I was having yesterday.
+I want to start getting in to building some full stack apps to expand my
+knowledge in that area.
+
+**Link to work:** 
+[Commit 1](https://github.com/danyeaw/pybites-challenges/commit/bbecc2bef9d203d5f09fe36b230ec8312ddaf2ed)
