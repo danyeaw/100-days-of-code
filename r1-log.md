@@ -80,3 +80,12 @@ knowledge in that area.
 
 **Link to work:** 
 [Commit 1](https://github.com/danyeaw/pybites-challenges/commit/bbecc2bef9d203d5f09fe36b230ec8312ddaf2ed)
+
+### Day 6: Jan 18 Friday
+
+**Today's Progress**:
+
+- Started working on upgrading Batavia to support NodeJS 10.x LTS
+
+**Thoughts**: My goal is to get Django working again as a Toga backend.
+Before doing that I need to give Batavia some Javascript attention.
