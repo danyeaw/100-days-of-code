@@ -89,3 +89,18 @@ knowledge in that area.
 
 **Thoughts**: My goal is to get Django working again as a Toga backend.
 Before doing that I need to give Batavia some Javascript attention.
+
+### Day 7: Jan 19 Saturday
+
+**Today's Progress**:
+
+- Updated the Batavia dependencies to fix security vulnerabilites
+- Fixed file not found errors in the Batavia test server
+- Started testing Batavia against multiple versions of Python3 and Node
+
+**Thoughts**: After running some tests, it appears that Batavia works great
+with Python 3.5.6, Node 6.16.0 and 10.15.0, and django 1.11.18. This is
+good because we can have users start to use a modern version of Node. 
+It also breaks with Python 3.7.2 and django 2.1. This will be my next step
+to figure out why django doesn't work, and then fix the Batavia bytecode
+translation problems with the latest Python.
