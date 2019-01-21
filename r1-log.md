@@ -104,3 +104,32 @@ good because we can have users start to use a modern version of Node.
 It also breaks with Python 3.7.2 and django 2.1. This will be my next step
 to figure out why django doesn't work, and then fix the Batavia bytecode
 translation problems with the latest Python.
+
+### Day 8: Jan 20 Sunday
+
+**Today's Progress**:
+
+More work on Batavia today:
+Updates Django to version 2.1.5, including:
+- Fix errors caused by pyc payloads not properly decoded
+- Replace `MIDDLEWARE_CLASSES` since now deprecated
+- Upgrade urlparsers from url to the new path syntax
+
+Since the version of CodeMirror being packaged was very old, moved it to be npm installed:
+
+- Added it to the webpack to create a codemirror.js and codemirror.css that is placed in the static site for just the 3 files out of CodeMirror needed for this project.
+
+Update Babel configurations and package.json to fix issues caused by the upgrade to Babel 7
+
+Enabled source map creation in webpack
+
+**Thoughts**: Gained some good experience working with Django, Webpack,
+and npm today. Did troubleshooting and added breakpoints using the
+Firefox developer console. I also learned about source mapping for minified
+JS. I also realized that the errors I thought I fixed yesterday, were
+actually a mistake I made, I wasn't running the testserver from the correct
+directory.
+
+[Commit 1](https://github.com/pybee/batavia/pull/770/commits/27febe2458ad81d8b4af37932a43e2fcef7146fe)
+[Commit 2](https://github.com/pybee/batavia/pull/770/commits/1c588819861958bc94fd70b8f102cc7862e43202)
+[Commit 3](https://github.com/pybee/batavia/pull/770/commits/96ae4a135f842d2f03d317c2cac3aa4d88ee436f)
