@@ -133,3 +133,25 @@ directory.
 [Commit 1](https://github.com/pybee/batavia/pull/770/commits/27febe2458ad81d8b4af37932a43e2fcef7146fe)
 [Commit 2](https://github.com/pybee/batavia/pull/770/commits/1c588819861958bc94fd70b8f102cc7862e43202)
 [Commit 3](https://github.com/pybee/batavia/pull/770/commits/96ae4a135f842d2f03d317c2cac3aa4d88ee436f)
+
+### Day 9: Jan 21 Monday
+
+**Today's Progress**:
+
+More work on Batavia today to add to the PR I started yesterday:
+- Builds for Batavia were failing in the CI. Webpack 4 has an issue with
+building for universal targets: webpack/webpack#6525. I made use of the
+workaround to create a globalObject in the webpack config.
+- For dependencies and building I updated it to include a production and
+development modes.
+
+I also added the new magic verison numbers for Python 3.7 and 3.8-dev, and
+added all of the current op codes to the project. This is a start to get
+Python 3.7 working.
+
+**Thoughts**: Doing complex setups with webpack's configs is not easy.
+This is one of my first times looking through Python's C code. Using
+Python's built in py_compile, decode, and ord is much easier than trying
+to look up ascii tables.
+
+[Commit 1](https://github.com/pybee/batavia/pull/770/commits/c6a1372dbd6b3f7bc595bffb0ac7426865f46c3f)
