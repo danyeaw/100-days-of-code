@@ -155,3 +155,13 @@ Python's built in py_compile, decode, and ord is much easier than trying
 to look up ascii tables.
 
 [Commit 1](https://github.com/pybee/batavia/pull/770/commits/c6a1372dbd6b3f7bc595bffb0ac7426865f46c3f)
+
+### Day 10: Jan 22 Tuesday
+
+**Today's Progress**: Completed 2x HackerRank challenges in Python.
+
+- Cleaned up more Batavia opcodes to support Python 3.7.
+
+**Thoughts**: Currently I am getting an unknown type code of 16, I'll have
+to look at that more tomorrow.
+
