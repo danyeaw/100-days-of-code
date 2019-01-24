@@ -165,3 +165,15 @@ to look up ascii tables.
 **Thoughts**: Currently I am getting an unknown type code of 16, I'll have
 to look at that more tomorrow.
 
+### Day 11: Jan 23 Wednesday
+
+**Today's Progress**: Completed 2x HackerRank challenges in Python.
+
+- Add support for PEP 552 which uses 4 32-bit words in the pyc header in Python 3.7 and up
+- Update the docs to have users use Python 3.5 and 3.6, and Node 10.x LTR
+- Started replacing an ugly .bat script and a few Java .properties files
+with one written in Python with a toml config
+- Explored the basics of creating a GUI with Gooey
+
+**Thoughts**: Feeling great about figuring out the 4 32-bit pyc header
+which solved the type errors I was getting.
