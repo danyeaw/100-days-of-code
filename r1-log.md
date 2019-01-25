@@ -177,3 +177,15 @@ with one written in Python with a toml config
 
 **Thoughts**: Feeling great about figuring out the 4 32-bit pyc header
 which solved the type errors I was getting.
+
+### Day 12: Jan 24 Thursday
+
+**Today's Progress**: 
+
+- Merged by PR for days 7, 8, and 9
+- Started troubleshooting issue with the version number checks in Batavia
+not working
+- Started creating a Gitter bot using ChatterBot, Django, and Heruku for thePyBee channel
+
+**Thoughts**: It is awesome to have one of my PRs merged! Hopefully I can
+get the other one merged tomorrow.
