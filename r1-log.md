@@ -189,3 +189,27 @@ not working
 
 **Thoughts**: It is awesome to have one of my PRs merged! Hopefully I can
 get the other one merged tomorrow.
+
+### Day 13: Jan 25 Friday
+
+**Today's Progress**: 
+
+- Built a script that replaced two .bat files and two .properties
+configurations with python using Click, toml, pathlib, and 
+python-jproperties
+- Worked on completing support for Python 3.7 and 3.8
+
+**Thoughts**: Python makes creating simple programs sooo easy ;-)
+
+### Day 14: Jan 26 Saturday
+
+**Today's Progress**: 
+
+- Completed a tutorial on Postman for web API development
+- Got about half way through the Ruby on Rails tutorial to build a blog
+- Worked on completing support for Python 3.7 and 3.8
+
+**Thoughts**: I would like to learn some Rails and Vue, so I made some
+progress towards that today. I have also been thinking about trying to
+get some small freelance gigs on the side to start to build up a portfolio
+for getting a developer job or doing freelance full time.
