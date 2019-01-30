@@ -213,3 +213,39 @@ python-jproperties
 progress towards that today. I have also been thinking about trying to
 get some small freelance gigs on the side to start to build up a portfolio
 for getting a developer job or doing freelance full time.
+
+### Day 15: Jan 27 Sunday
+
+**Today's Progress**: 
+
+- Fix the Gaphor main window so that it is resizable
+- Begin to replace the Gaphor Toolbox's custom wrapbox with the Gtk
+ToolPalette widget that provides similar functionality
+
+**Thoughts**: Got back in to working on Gaphor today which is great, I
+really want to push through getting a working version done. The ToolPalette
+drag and drop isn't currently working.
+
+### Day 16: Jan 28 Monday
+
+**Today's Progress**: 
+
+- Got a working version of the script I started on Friday working. It
+is now called MagicDraw AutoBot, since it is a MagicDraw Product Line
+Engineering Transformer and Report Generator.
+
+**Thoughts**: Making a CLI tool with Python has been really fun and
+rewarding.
+
+### Day 17: Jan 29 Tuesday
+
+**Today's Progress**: 
+
+- MagicDraw AutoBot now uses click's built in password mechanism and
+the getpass module to get the username automatically. Removed storing
+the password from the config files. Also switched to using a secure
+temp file and added a README.
+- Got drag and drop working in Gaphor with the new ToolPalette.
+
+**Thoughts**: Really happy I got drag and drop working since it is
+a little tricky with Gtk. The new ToolPalette is a big improvement. 
