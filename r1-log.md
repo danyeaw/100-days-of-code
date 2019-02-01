@@ -249,3 +249,27 @@ temp file and added a README.
 
 **Thoughts**: Really happy I got drag and drop working since it is
 a little tricky with Gtk. The new ToolPalette is a big improvement. 
+
+### Day 18: Jan 30 Wednesday
+
+**Today's Progress**: 
+
+- Completed an Athlete Sort challenge on Hackerrank
+- Apply default position to layout the Gtk Paned on the main window
+of Gaphor
+
+**Thoughts**: On a role making updates to Gaphor, the main window is
+starting to come together. My wife says it looks like Win98, so some more
+work there eventually to spruce up Gtk+ in the app.
+
+### Day 19: Jan 31 Thursday
+
+**Today's Progress**: 
+
+- Fixed hand drawn diagrams in Gaphor, they are now working again from
+the option on the Diagrams menu.
+
+**Thoughts**: I am still getting the hang of using Zope for creating
+different components that can be called across the app. I get the value
+in easily being able to call things across the app, but it does add a lot
+of complexity to easily reason about how the app is working.
