@@ -273,3 +273,35 @@ the option on the Diagrams menu.
 different components that can be called across the app. I get the value
 in easily being able to call things across the app, but it does add a lot
 of complexity to easily reason about how the app is working.
+
+### Day 20: Feb 01 Friday through Day 22: Feb 03 Sunday
+
+**Today's Progress**: 
+
+- Learned about the Zope Component Architecture, read multiple tutorials
+- Figured out how to use the getUtility method from ZCA to get the current
+Gaphor diagram.
+
+**Thoughts**: This took a lot of work to learn about Zope. Being able to
+get the current Gaphor diagram is one of the last remaining items to get
+a fully functional app, so this was really good.
+
+### Day 23: Feb 04 Monday
+
+**Today's Progress**: 
+
+- Reviewed Arjan's Pull Requests for Gaphor.
+
+**Thoughts**: I wasn't feeling very good when I got home from work. I
+stayed home from work on Tuesday as well.
+
+### Day 24: Feb 06 Wednesday
+
+**Today's Progress**: 
+
+- Completed HackerRank challenge: The Minion Game
+- Added gif showing an issue with a Gaphor PR.
+
+**Thoughts**: I am still recovering from being sick. Hopefully tomorrow
+I can get back to the full swing of things.
+
